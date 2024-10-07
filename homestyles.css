@@ -1,0 +1,15 @@
+body {
+    background-color: tomato;
+  }
+
+  h1 {
+    color: maroon;
+    background-color: crimson;
+    margin-left: 5px;
+    border-style: inset;
+    border-color: black;
+  }
+  p {
+    text-align: center;
+    color: brown;
+  }
