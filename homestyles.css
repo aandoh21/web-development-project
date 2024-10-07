@@ -1,15 +1,18 @@
 body {
-    background-color: tomato;
+    background-color: rgb(216, 138, 124);
   }
 
   h1 {
     color: maroon;
-    background-color: crimson;
-    margin-left: 5px;
-    border-style: inset;
+    background-color: salmon;
+    border-style: solid;
     border-color: black;
+    width: 120px;
   }
   p {
     text-align: center;
-    color: brown;
+    color: yellow;
+  }
+  div{
+    
   }
