@@ -5,10 +5,15 @@ body {
   h1 {
     color: navy;
     margin-left: 20px;
+    border-style: solid;
+    border-color: black;
+    width: 120px;
   }
   p{
     text-align: left;
     color: darkgreen;
+    border-style: solid;
+    border-color: black;
   }
   div {
     width:300px;
