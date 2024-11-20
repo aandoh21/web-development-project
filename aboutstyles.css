@@ -9,14 +9,16 @@ body {
     border-color: black;
     width: 120px;
   }
+
   p{
     text-align: left;
-    color: darkgreen;
+    color: rgb(0, 20, 2);
     border-style: solid;
     border-color: black;
+    font-size: 18px;
   }
   div {
-    width:300px;
+    width:600px;
     text-align: left;
   }
   img{

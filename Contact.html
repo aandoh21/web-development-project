@@ -2,15 +2,26 @@
 <html>
 <head>
     <link rel="stylesheet" href="contactstyles.css">
-    <!-- This refrences my style sheet for the contact page -->>
-<title>Contact</title>
+    <!-- This refrences my style sheet for the contact page -->
+    <title>Contact</title>
 </head>
 <body>
-<h1><a href="Home.html">Home</a></h1>
-<h1><a href="About.html">About</a></h1>
+    <h1 style="border-style: solid; border-color: black; border-width: 2px;text-align: center;">   
+        <a href="Home.html">Home</a>
+    </h1>
+<h1 style="border-style: solid; border-color: black; border-width: 2px;text-align: center;">
+    <a href="About.html">About</a>
+</h1>
 <!-- These link to the other two pages. -->
-<h1>Contact</h1>
+<h1 style="border-style: solid; border-color: black; border-width: 2px;text-align: center;">Contact</h1>
 <h2>Contact Me</h2>
-<p><p><a href="mailto:aldrickandoh@outlook.com">My Email</a></p>
+<p>
+    <a href="mailto:aldrickandoh@outlook.com">My Email</a>
+</p>
+<form action="/submit-form" method="post">
+    <label for="username">Email:</label>
+    <input type="text" id="Email" name="Email" required>
+    <button type="submit">Submit</button>
+</form>
 </body>
 </html>

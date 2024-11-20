@@ -15,3 +15,9 @@ body {
   p{
     text-align: center;
   }
+  form {
+    margin: 0 auto; /* Centers the form horizontally */
+    width: 50%; /* Sets the form's width to 50% of the container */
+    padding: 20px; /* Adds some padding inside the form */
+}
+/* I wanted to center the form. */
