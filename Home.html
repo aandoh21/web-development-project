@@ -28,7 +28,14 @@
     <p>
         Thank you for viewing my page. If you want to learn more about me please check out the about page for more a deeper look into me. If you want to contact me please check the contact page.
     </p>
-    <img src="LTG.gif" alt="LTG" style="width:440px; height:440px;">
+    <img src="LTG.gif" alt="LTG" style="width:440px; height:440px;" onclick="playSound()">
+    <audio id="clickSound" src="Thunder.mp3" preload="auto"></audio>
+    <script>
+        function playSound() {
+            var sound = document.getElementById("clickSound");
+            sound.play();
+        }
+    </script>
 </div>  
 </body>
 </html>
